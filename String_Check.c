@@ -1,9 +1,13 @@
+//This is the code for checking if the string is in form of a^n b^n or not. Like 'aabb' follow the pattern whereas 'abba'
+//or 'aab' or 'abab' does not follow.
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 
 int main(){
-    char string[50],str[50];
+    char string[50],str[50];    //Two string array used. string to take the input and str to modify and check the patten.
     char a='a',b='b',x='x',y='y';
     int i=0,flag1=0,flag2=0,flag3=0,flag4=0;
     printf("Enter your string\t");

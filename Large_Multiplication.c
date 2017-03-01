@@ -1,7 +1,9 @@
-// This program is to multiply very large number. You can even multiply two number having 500 digits or even higher(even number can be of lacs digits). Since no any type of variable can store such large number. So I used array of integer to store and multiply such large numbers. This program runs in time complexity of O(m*n) where m and n is the number of digit in the number which needs to be multiplied.
+/* This program is to multiply very large number. You can even multiply two number having 500 digits or even higher
+(even number can be of lacs digits). Since no any type of variable can store such large number. So I used array of integer
+to store and multiply such large numbers. This program runs in time complexity of O(m*n) where m and n is the number of digit
+in the number which needs to be multiplied.*/
 
 #include<stdio.h>
-
 int main(){
     int m,n,i,j;
     printf("Enter Length of First and Second number :\t");    //Enter size of number
@@ -34,6 +36,5 @@ int main(){
     for(i=0;i<s;i++)
         printf("%d",result[i]);
     printf("\n");
-
     return 0;
 }

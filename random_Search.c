@@ -1,4 +1,6 @@
-/* This is an invariant of Binary Search which requires data to be sorted 
+/* This is an invariant of Binary Search which requires data to be sorted. Here, the difference from binary search is that binary Search
+limits the range by dividing 2 whereas in this we search number with checking and comparing with number found on random index.
+I can't say, it is better or worse than binary search but it one of my own approach. */
 #include<stdio.h>
 #include<time.h>
 int main(){
